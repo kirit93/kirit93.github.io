@@ -4,11 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+A technology enthusiast with a passion for AI and ML.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Occasionally moves mountains and swims across oceans.
 
 ### Contact me
 
