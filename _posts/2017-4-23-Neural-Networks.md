@@ -42,4 +42,4 @@ This diagram shows you perfectly how the recurrence kicks in. Here you have a hi
 
 The parameters ‘U’, ‘V’ and ‘W’ are the weights associated with the inputs, outputs and hidden state respectively. 
 
-When all inputs have been passed through this network, the loss is calculated and Back Propagation takes place. The key thing to note here is that now you will back propagate not only through the networks, but also through each of the steps in time. This is called Back Propagation Through Time (BPTT) and you can find a brilliant explanation for BPTT [here](www.wildml.com/2015/10/recurrent-neural-networks-tutorial-part-3-backpropagation-through-time-and-vanishing-gradients/). 
+When all inputs have been passed through this network, the loss is calculated and Back Propagation takes place. The key thing to note here is that now you will back propagate not only through the networks, but also through each of the steps in time. This is called Back Propagation Through Time (BPTT).
