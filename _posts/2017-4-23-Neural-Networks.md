@@ -32,7 +32,7 @@ The focus of this article series is going to be on introducing some of the varia
 
 I’ll start with Recurrent Neural Networks.
 
-The simple network you see in the photo above, simply takes an input, passes it through a couple of neurons and give you an ouput. The assumption with the simple NN is that the inputs are independent of each other. In most practical cases, this is an assumption that can’t be made. Think of an application where you’re training an NN to learn the alphabet, or english sentences. Each letter is depends on the previous letter and it’s the combination of these letters that need to be learnt. Think of an RNN to sort of have the ability to remember the previous inputs.
+The simple network you see in the photo above, simply takes an input, passes it through a couple of neurons and give you an output. The assumption with the simple NN is that the inputs are independent of each other. In most practical cases, this is an assumption that can’t be made. Think of an application where you’re training an NN to learn the alphabet, or english sentences. Each letter is depends on the previous letter and it’s the combination of these letters that need to be learnt. Think of an RNN to sort of have the ability to remember the previous inputs.
 
 RNN makes use of information that is sequential in time. The ‘Recurrent’ part is because each input in the sequence goes through the entire network and each output is dependent on previous steps. 
 
