@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-A technology enthusiast with a passion for AI and ML.
+An AI fan who hopes to help teach people about AI and contribute to the AI community.
 
 ### More Information
 
