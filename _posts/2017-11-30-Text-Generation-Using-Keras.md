@@ -4,8 +4,7 @@ title: Text Generation with Keras
 ---
 
 This is the ipython notebook for my tutorial at PyData NYC on generating text using neural networks with Keras in Python.
-My github repo has the presentation and code, you can find it [here](https://github.com/kirit93/PyDataNYC)
-or if you'd like you can clone this [Azure notebook](https://notebooks.azure.com/kirit93/libraries/textgenpydata) instead.
+My github repo has the presentation and code, you can find it [here](https://github.com/kirit93/PyDataNYC) or if you'd like you can clone this [Azure notebook](https://notebooks.azure.com/kirit93/libraries/textgenpydata) instead.
 <br><br>
 
 
