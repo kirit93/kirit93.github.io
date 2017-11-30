@@ -1,18 +1,73 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About – Kirit Thadaka – Just another AI enthusiast.</title>
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+    
+    <meta name="description" content="Just another AI enthusiast.">
+    <meta property="og:description" content="Just another AI enthusiast." />
+    
+    <meta name="author" content="Kirit Thadaka" />
 
-      <div class="entry">
-        {{ post.excerpt }}
+    
+    <meta property="og:title" content="About" />
+    <meta property="twitter:title" content="About" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Kirit Thadaka - Just another AI enthusiast." href="/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="/" class="site-avatar"><img src="/images/pp.jpg" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="/">Kirit Thadaka</a></h1>
+            <p class="site-description">Just another AI enthusiast.</p>
+          </div>
+
+          <nav>
+            <a href="/">About</a>
+            <a href="/blog">Blog</a>
+            <!-- <a href="/cv">CV</a> -->
+          </nav>
+        </header>
       </div>
+    </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    <div id="main" role="main" class="container">
+      <article class="page">
+        <h1>About</h1>
+        <div class="entry">
+          <p>An AI fan who hopes to help teach people about AI and contribute to the AI community.</p>
+          <h3 id="more-information">More Information</h3>
+          <p>Occasionally moves mountains and swims across oceans.</p>
+        </div>
     </article>
-  {% endfor %}
-</div>
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">          
+          <a href="https://github.com/kirit93"><i class="svg-icon github"></i></a>
+          <a href="https://www.twitter.com/kirit93"><i class="svg-icon twitter"></i></a>
+        </footer>
+      </div>
+    </div>
+
+  </body>
+</html>
