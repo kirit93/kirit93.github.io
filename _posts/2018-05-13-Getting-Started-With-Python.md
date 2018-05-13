@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Neural Networks!
+title: Getting started with Python!
 ---
 
 Coming soon!
