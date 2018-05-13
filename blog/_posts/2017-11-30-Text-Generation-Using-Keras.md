@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Text Generation with Keras
+categories: blog
 ---
 
 This is the ipython notebook for my tutorial at PyData NYC on generating text using neural networks with Keras in Python.

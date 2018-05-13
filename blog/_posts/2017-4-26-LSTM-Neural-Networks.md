@@ -1,6 +1,7 @@
 ---
 layout: post
 title: LSTM Neural Networks
+categories: blog
 ---
 
 Apologies for ending the previous post a tad bit abruptly, seemed to have ran out of juice there. Now I’m back to continue where I left off from with a simple way to understand LSTM Neural Networks. Since LSTMs are all the rage now, this is a good way to get started working on them.
