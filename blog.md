@@ -5,6 +5,7 @@ permalink: /blog/
 
 <div class="posts">
   {% for post in site.posts %}
+    {% if post.title.indexOf('Python') == 0%}
       <article class="post">
 
         <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
@@ -15,5 +16,6 @@ permalink: /blog/
 
         <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
       </article>
+    {% endif %}
   {% endfor %}
 </div>
