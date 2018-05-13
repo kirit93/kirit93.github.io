@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting started with Python!
-categories: python
+category: python
 ---
 
 Coming soon!

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Neural Networks!
-categories: blog
+category: blog
 ---
 
 Neural Networks are essentially our way of trying to mimic the all powerful functions of the human brain. When I first heard of it, I was pretty excited and a little skeptical because I didn’t really think we could achieve something so complex. Turns out we’re not too bad at it. It starts with a simple understanding of the human brain. 
