@@ -4,16 +4,18 @@ permalink: /blog/
 ---
 
 <div class="posts">
-  {% for post in site.blog_post.posts %}
-    <article class="post">
+  {% for post in site.posts %}
+    {% if post.title.indexOf('Python') ==0%}
+      <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+        <div class="entry">
+          {{ post.excerpt }}
+        </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      </article>
+    {% endif %}
   {% endfor %}
 </div>
