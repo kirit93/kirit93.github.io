@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blog/
+permalink: /python/
 ---
 
 <div class="python_posts">
