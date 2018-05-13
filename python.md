@@ -5,7 +5,7 @@ permalink: /python/
 
 <div class="python_posts">
   {% for post in site.python_posts %}
-    <article class="python_posts">
+    <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
