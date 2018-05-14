@@ -17,6 +17,7 @@ avatar: /images/pp.jpg
 
 # Includes an icon in the footer for each username you enter
 footer-links:
+  target: blank
   dribbble:
   email: kirit.thadaka@gmail.com
   facebook: 
