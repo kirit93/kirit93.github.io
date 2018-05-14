@@ -22,3 +22,4 @@ Python follows the [off-side rule](https://en.wikipedia.org/wiki/Off-side_rule){
 Now for the part we've all been waiting for. Open up your Python terminal and type the following command <br>
 `print("Hello World")` <br>
 There you go, you've written your first piece of Python code.
+
